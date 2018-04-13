@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Hombre/Mujer
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding text-center>
+  <ion-item>
+    <ion-label color="primary" stacked>Ingresa  La Curp</ion-label>
+    <ion-input type="text" placeholder="Escribe Curp" [(ngModel)]="dato.curp"></ion-input>
+  </ion-item>
+
+  <button ion-button  (click)="goResult()">Aceptar</button>
+
+</ion-content>
